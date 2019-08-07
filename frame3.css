@@ -1,0 +1,47 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(82, 89, 187);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline;
+  color: rgb(9, 39, 73);
+  text-align: center;
+  padding: 14px 60px;
+  text-decoration: none;
+  font-size: 30px;
+}
+li a.hover{
+    background-color: darkblue;
+}
+
+body {
+    background-image: url("https://image.freepik.com/free-photo/blur-bird-chickens-feather-texture-background_29487-286.jpg");
+    background-size: cover;
+    background-color: #cccccc;
+    align-content: center;
+}
+
+.center {
+    margin: center;
+    font-size: 60px;
+    padding-top: 100px;
+    float: center;
+} 
+.button1{
+  margin: 10%;
+  padding:20px;
+  background-color:  rgb(60, 98, 143);
+  }
+.button1 :hover{
+  background-color:rgb(57, 84, 163) ;
+  color: black;
+
+}

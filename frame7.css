@@ -1,0 +1,61 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(82, 89, 187);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline;
+    color: rgb(9, 39, 73);
+    text-align: center;
+    padding: 14px 60px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  li a.hover{
+      background-color: darkblue;
+  }
+  
+  center {
+    background-image: url(https://www.anchorexpressinc.com/wp-content/uploads/2018/01/payment.png);
+      padding: 30px;
+  }
+  form {
+      font-size: 20px;
+      color: black;
+      padding: 50px;
+
+      }
+    input[type=text], select{
+        width: 600px;
+        height: 50px;
+        display: inline;
+        border: 3px solid black; 
+        margin: 30px;
+      }
+
+     . input-group input[type=date], select{
+        width: 600px;
+        height: 50px;
+        display: inline;
+        border: 3px solid black; 
+        margin: 30px;
+      }
+
+     
+      button{
+          font-size: 25px;
+          color: blue;
+          background-color:  rgb(82, 89, 187);
+      }
+      p{
+          padding-bottom: 20px;
+          font-size: 20px;
+          color: aliceblue;
+      }
